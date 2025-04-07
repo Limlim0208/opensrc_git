@@ -5,7 +5,7 @@ Gets to 99.25% test accuracy after 12 epochs
 '''
 
 from __future__ import print_function
-import tensorflow.keras #모듈을 인스톨해서 파일을 돌아가게 만드는 예제, 모듈이 인스톨되지 않은 오류 메시지
+import tensorflow.keras #모듈을 인스톨해서 파일을 돌아가게 만드는 예제, 모듈이 인스톨되지 않은 오류 메시지.
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten
@@ -16,6 +16,7 @@ from PIL import Image
 import numpy as np
 import os
 import tensorflow as tf
+#VS코드 github 연동
 
 print(tf.__version__)
 
